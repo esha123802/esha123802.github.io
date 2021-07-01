@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ohm Encon Pvt. Ltd.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:title" content="Ohm Encon - Digital Business Card" />
+    <meta property="og:description" content="Electrical Design and Engineering Services">
+    <meta property="og:image" itemprop="image" content="http://sbitconsult.in/dc/ohmencon.jpg">
+    <meta property="og:url" content="http://sbitconsult.in/dc/ohmencon">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" type="image/jpg" href="http://sbitconsult.in/dc/ohmencon.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: auto;
+        }
+
+        .container-sm {
+            background-color: rgb(163, 86, 99);
+            background: rgb(70, 74, 83);
+            background: linear-gradient(10deg, #23201D 72%, #294367 100%);
+            color: #fff;
+            margin-bottom: 2%;
+            border-radius: 10px;
+            /* height: 100%; */
+            overflow: auto;
+            font-family: 'Open Sans', sans-serif;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .container-sm::-webkit-scrollbar {
+            display: none;
+        }
+
+        .titles {
+            background-color: grey;
+            padding: 5% 10%;
+            box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.8);
+        }
+
+        .box {
+            display: flex;
+            /* padding-left: 10%; */
+            flex-direction: row;
+        }
+
+        .box1 {
+            width: 79%;
+            font-size: large;
+            float: left;
+        }
+
+        .box2 {
+            width: 21%;
+            float: left;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+        h1 {
+            color: aqua;
+            /* text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; */
+            /* text-align: center; */
+            font-size: x-large;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        h4 {
+            color: whitesmoke;
+            /* text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; */
+            /* text-align: center; */
+            font-family: 'Roboto Slab', serif;
+            /* width: 80%; */
+            margin-bottom: 0%;
+        }
+
+        .text {
+            margin-left: 10%;
+            font-weight: bold;
+        }
+
+        h5 {
+            margin-left: 10%;
+            color: #F9D70B;
+            font-weight: bold;
+        }
+
+        ul {
+            width: 80%;
+            padding: 1% 0 3% 6%;
+        }
+
+        li {
+            font-family: 'Playfair Display', serif;
+            /* font-family: 'Newsreader', serif; */
+            font-weight: 580;
+            color: #E0E2DB;
+            margin-bottom: 0.5%;
+        }
+
+        button {
+            margin: 1px;
+            border-radius: 10%;
+        }
+
+        /* .item {
+            margin-left: 10%;
+        } */
+
+        p {
+            font-size: 13px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        hr {
+            width: 80%;
+            height: 0.8px;
+            margin: 0 auto;
+            display: none;
+            margin-bottom: 2%;
+        }
+
+        #name {
+            margin-left: 6%;
+            margin-bottom: 1%;
+            font-weight: bold;
+            color: #E03932;
+            font-size: large;
+        }
+
+        .degree {
+            margin-left: 6%;
+            width: 80%;
+            color: #E0E2DB;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        .download {
+            margin-bottom: 8%;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 17px;
+            }
+
+            .text {
+                font-size: 15px;
+            }
+
+            .container-sm {
+                margin-bottom: 0;
+                border-radius: 0;
+                box-shadow: 0;
+                margin-top: 0;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            .container-sm {
+                width: 40%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-sm px-0 px-sm-0">
+        <img class="card-img-top" src="ohmenconlogo.jpg" alt="Card image"
+            style="box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.8), 0 3px 5px 0 rgba(0, 0, 0, 1.0);background-color: #fff;">
+        <div class="card-body">
+            <div class="titles box">
+                <div class="box-row">
+                    <div class="box-cell box1">
+                        <h4>Electrical Design and Engineering</h4>
+                    </div>
+                    <div class="box-cell box2">
+                        <img class="img-fluid rounded-circle shadow border" src="ohmencon.jpg">
+                    </div>
+                </div>
+            </div>
+            <h5 class="card-text" style="margin-top: 3%;">Our Services :</h5>
+            <hr>
+            <ul class="text">
+                <li>Substation Engineering</li>
+                <li>Power System Analysis</li>
+                <li>Plant Engineering</li>
+                <li>Building Electricals</li>
+                <li>Solar PLant Engineering</li>
+                <li>Corporate Training</li>
+            </ul>
+            <div
+                style="position: relative;display: flex;justify-content: center;align-items: center;text-align: center;">
+                <!-- <div class="item" style="float: left;">
+                    <a href="#" 
+                        class="w3-btn  w3-orange w3-medium" style="border-radius: 10%;"><i
+                            class="w3-large fa fa-download" disabled></i></a>
+                    <p>Catalog</p>
+                </div> -->
+                <div class="item" style="float: left;margin-right: 10%;">
+                    <a href="http://ohmencon.com/" target="_blank" class="w3-btn  w3-white w3-medium"
+                        style="border-radius: 10%;"><i class="w3-large fa fa-home"></i></a>
+                    <p>Website</p>                    
+                </div>
+                <div class="item" style="float: left;">
+                    <a href="#" class="w3-btn  w3-orange w3-medium"
+                        style="border-radius: 10%;"><i class="w3-large fa fa-download"></i></a>
+                    <p>Catalog</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-sm" id="contact">
+        <h5 style="margin: 5% 10%;">Contact Us :</h5>
+        <div style="position: relative;margin-left: 10%;margin-top: 2%;margin-bottom: 4%;">
+            <div style="float: left;"><i class="w3-large fa fa-user"></i></div>
+            <p id="name">Tarang V. Thakkar - <i style="color: whitesmoke;font-size: small;">Director</i></p>
+            <p class="degree">B.E. Electrical (B.V.M, Vidhyanagar)</p>
+        </div>
+        <div style="position: relative;margin-left: 10%;margin-top: 2%;margin-bottom: 4%;">
+            <div style="float: left;"><i class="w3-large fa fa-user"></i></div>
+            <p id="name">Prakash K Makhijani - <i style="color: white;font-size: small;">Director</i></p>
+            <p class="degree">B.E.Electrical (M.S.University, Baroda)</p>
+        </div>
+        <div style="position: relative;text-align: center;display: flex;justify-content: center;align-items: center;">
+            <div class="item" style="float: left;margin-right: 10%;">
+                <a href="mailto: contact@ohmencon.com" class="w3-btn  w3-blue w3-medium" style="border-radius: 10%;"><i
+                        class="w3-large fa fa-envelope"></i></a>
+                <p>Email</p>
+            </div>
+            <div class="item" style="float: left;">
+                <a href="tel: 919106970387" class="w3-btn  w3-green w3-medium" style="border-radius: 10%;"><i
+                        class="w3-large fa fa-phone"></i></a>
+                <p>Call</p>
+            </div>
+        </div>
+        <div
+            style="position: relative;margin-left: 10%;margin-top: 2%;margin-bottom: 4%;font-family: 'Playfair Display', serif;">
+            <div style="float: left;"><i class="w3-large fa fa-map-marker"></i></div>
+            <div style="margin-left: 6%;">Ohm Encon Private Limited, LF2 & 3, Lotus Aura, Sama Savli Road, Vadodara -
+                390024, Gujarat.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
