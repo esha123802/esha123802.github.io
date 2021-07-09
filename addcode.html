@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Addcode Engineering</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:title" content="Addcode Engineering - Digital Business Card">
+    <meta property="og:description" content="Instrumentation Engineering activities">
+    <meta property="og:image" itemprop="image" content="http://sbitconsult.in/dc/addcode.jpg">
+    <meta property="og:url" content="http://www.sbitconsult.in/dc/addcode">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" type="image/jpg" href="http://sbitconsult.in/dc/addcode.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap" rel="stylesheet">
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: auto;
+        }
+
+        .container-sm {
+            background-color: rgb(163, 86, 99);
+            background: rgb(70, 74, 83);
+            background: linear-gradient(10deg, rgba(70, 74, 83, 1) 72%, rgba(201, 89, 111, 1) 100%);
+            color: #fff;
+            margin-bottom: 2%;
+            border-radius: 10px;
+            /* height: 100%; */
+            overflow: auto;
+            font-family: 'Open Sans', sans-serif;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .container-sm::-webkit-scrollbar {
+            display: none;
+        }
+
+        .titles {
+            background-color: grey;
+            padding: 5% 0% 5% 10%;
+            box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.8);
+        }
+
+        .box {
+            display: flex;
+            /* padding-left: 10%; */
+            flex-direction: row;
+        }
+
+        .box1 {
+            width: 70%;
+            float: left;
+        }
+
+        .box2 {
+            width: 25%;
+            float: left;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+
+        h1 {
+            color: aqua;
+            /* text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; */
+            /* text-align: center; */
+            font-family: 'Roboto Slab', serif;
+        }
+
+        h4 {
+            color: whitesmoke;
+            /* text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black; */
+            /* text-align: center; */
+            font-family: 'Roboto Slab', serif;
+            /* width: 80%; */
+            margin-bottom: 0%;
+        }
+
+        .text {
+            margin-left: 10%;
+            font-weight: bold;
+        }
+
+        h5 {
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+            margin-left: 10%;
+            color: yellow;
+        }
+
+        ul {
+            width: 80%;
+            padding: 1% 0 3% 6%;
+        }
+
+        li {
+            font-family: 'Playfair Display', serif;
+            /* font-family: 'Newsreader', serif; */
+            font-weight: 580;
+            color: #fff;
+            margin-bottom: 0.5%;
+        }
+
+        button {
+            margin: 1px;
+            border-radius: 10%;
+        }
+
+        p {
+            font-size: 13px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        hr {
+            width: 80%;
+            height: 0.8px;
+            margin: 0 auto;
+            display: none;
+            margin-bottom: 2%;
+        }
+
+        #name {
+            margin-left: 10%;
+            margin-bottom: 1%;
+            font-weight: bold;
+            color: white;
+            font-size: large;
+        }
+
+        .download {
+            margin-bottom: 8%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 25px;
+            }
+
+            h4 {
+                font-size: 17px;
+            }
+
+            .text {
+                font-size: 15px;
+            }
+
+            .container-sm {
+                margin-bottom: 0;
+                border-radius: 0;
+                box-shadow: 0;
+                margin-top: 0;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            .container-sm {
+                width: 40%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-sm px-0 px-sm-0">
+        <img class="card-img-top"
+            src="http://sbitconsult.in/dc/industry.jpg"
+            alt="Card image" style="box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.8), 0 3px 5px 0 rgba(0, 0, 0, 1.0);">
+        <div class="card-body">
+            <div class="titles box">
+                <div class="box-row">
+                    <div class="box-cell box1">
+                        <h1 class="card-title">Addcode Engineering</h1>
+                        <h4>Instrumentation Engineering Activities</h4>
+                    </div>
+                    <div class="box-cell box2">
+                        <img class="img-fluid rounded-circle shadow border"
+                            src="http://www.sbitconsult.in/dc/addcode.jpg">
+                    </div>
+                </div>
+            </div>
+            <h5 class="card-text" style="margin-top: 3%;">Our Services :</h5>
+            <hr>
+            <ul class="text">
+                <li>Index Preparation and Drawing Generation</li>
+                <li>Data Upgradation - Digitization of drawings</li>
+                <li>Backend Support</li>
+                <li>Data Merging</li>
+            </ul>
+            <!-- <h5 class="card-text">Our Sectors :</h5>
+          <hr>
+          <ul class="text">
+            <li>Building and Construction Industry</li>
+            <li>Commercial Establishments</li>
+            <li>Infrastructure Companies</li>
+            <li>Education Institutions</li>
+            <li>Hospitals and Health-Care</li>
+          </ul> -->
+            <!-- <center>
+            <a href="sb-consultants-brochure.pdf" download="sb-consultants-brochure" class="w3-btn w3-orange w3-medium"
+              style="border-radius: 6%;margin-bottom: 5%;text-decoration: none;" target="_blank">Catalog<i
+                class="w3-margin-left fa fa-download"></i></a>
+          </center> -->
+            <div
+                style="position: relative;display: flex;justify-content: center;align-items: center;text-align: center;">
+                <div class="item" style="float: left;">
+                    <a href="#" class="w3-btn  w3-orange w3-medium" style="border-radius: 10%;"><i
+                            class="w3-large fa fa-download"></i></a>
+                    <p>Catalog</p>
+                </div>
+                <div class="item" style="float: left;margin-left: 10%;">
+                    <a href="https://www.addcodeengineering.com/" target="_blank" class="w3-btn  w3-white w3-medium"
+                        style="border-radius: 10%;"><i class="w3-large fa fa-home"></i></a>
+                    <p>Website</p>
+                </div>
+            </div>
+
+            <!-- <div id="acCard" style="margin-bottom:6%">
+            <div class="row justify-content-center mx-0">
+              <div class="row justify-content-center mx-0">
+                <div class="d-flex flex-column">
+                  <button type="button" data-toggle="collapse" data-target="#gstinCollapse"
+                    class="card-link btn rounded-circle pulse bg-white mb-2 mx-2 mx-sm-3"
+                    style="padding: 6px 18px !important;"><i class="fa fa-info fa-2x rounded-circle"></i></button>
+                  <span class="text-center" style="font-size: 10px;color: #fff;text-shadow: 0 0px 10px #000;">Legal
+                    Info</span>
+                </div>
+    
+                <div class="d-flex flex-column">
+                  <button type="button" data-toggle="collapse" data-target="#bankCollapse"
+                    class="card-link btn rounded-circle shadow p-0 mb-2 mx-2 mx-sm-3 bg-white border"><i
+                      class="d-block fa fa-bank w3-xlarge rounded-circle pulse"
+                      style="height:45px;width:45px;padding-top: 18%;"></i></button>
+                  <span class="text-center" style="font-size: 10px;color: #fff;text-shadow: 0 0px 10px #000;">Bank
+                    Details</span>
+                </div>
+              </div>
+    
+              <div class="card-subtitle collapse py-2" id="gstinCollapse">
+                <p class="mx-3 my-1 text-dark bg-white p-1 rounded">GSTIN : 24AGMPS0292A1ZL </p>
+                <p class="mx-3 my-1 text-dark bg-white p-1 rounded">MSME: UDYAM-GJ-24-0014764 </p>
+              </div>
+    
+              <div class="card-text collapse py-0 mx-3" id="bankCollapse">
+                <p class="py-2"><small>A/C Name - </small> SB CONSULTANTS<br><small> A/C No. - </small>
+                  436505000105 <br>
+                  <small>IFSC Code - </small>ICIC0004365<br> <small>Bank Name - </small>ICICI Bank<br>
+                  <small>Branch - </small>New Alkapuri, Vadodara<br>
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+    </div>
+    <div class="container-sm" id="contact">
+        <h5>Contant Us :</h5>
+        <p id="name">Ashish Dandekar, Managing Director</p>
+        <div style="position: relative;margin-left: 10%;margin-top: 2%;font-family:'Playfair Display', serif; ">
+        </div>
+        <div
+            style="position: relative;margin-left: 10%;margin-top: 2%;margin-bottom: 4%;font-family: 'Playfair Display', serif;">
+            <div style="float: left;"><i class="w3-large fa fa-map-marker"></i></div>
+            <div style="margin-left: 6%;">4th Floor, JB Square, A-33 Amit Nagar Society, Nr. Amit Nagar Char Rasta,
+                Karelibaug, Vadodara.</p>
+            </div>
+        </div>
+        <div style="position: relative;text-align: center;display: flex;align-items: center;justify-content: center;">
+            <div class="item" style="float: left;">
+                <button onclick="window.open('https://wa.me/919624484326','_blank')"
+                    class="w3-btn  w3-green w3-medium"><i class="w3-large fa fa-whatsapp"></i></button>
+                <p>WhatsApp</p>
+            </div>
+            <div class="item" style="float: left;margin-left: 10%;">
+                <a href="mailto: addcode@addcodeengineering.com" class="w3-btn  w3-blue w3-medium"
+                    style="border-radius: 10%;"><i class="w3-large fa fa-envelope"></i></a>
+                <p>Email</p>
+            </div>
+            <div class="item" style="float: left;margin-left: 10%;">
+                <a href="tel: 919624484326" class="w3-btn  w3-red w3-medium" style="border-radius: 10%;"><i
+                        class="w3-large fa fa-phone"></i></a>
+                <p>Call</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
